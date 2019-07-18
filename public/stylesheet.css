@@ -1,0 +1,154 @@
+
+.header{
+  display: block;
+  width:100%;
+  height:50px;
+}
+
+.search_field{
+  display: flex;
+  width:300px;
+  height:34px;
+  margin:10px auto 0;
+  background-color: #E6ECF0;
+  border-radius: 34px;
+}
+
+.search_icon{
+  display: block;
+  height:16px;
+  margin:9px 5px 5px 15px;
+  fill: #8E9BA6;
+}
+
+#search_word{
+  display: block;
+  width:100%;
+  height: 34px;
+  font-size:14px;
+  border:none;
+  
+}
+
+.header_bottom{
+  display:  block;
+  width:100%;
+  height: 50px;
+  border-bottom:solid 0.5px #E6ECF0;
+  
+}
+.global_navi_container{
+display:  flex;
+width:100%;
+height: 100%;
+
+}
+
+.global_navi_box{
+display: block;
+width:105px;
+height: 50px;
+}
+
+.global_navi_icon{
+  height:25px;
+  margin:15px 40px;
+  fill: #8E9BA6;
+}
+
+
+
+.twitter_card_main{
+  box-sizing: border-box;
+  display: flex;
+  background: #ffffff;
+  position: relative;
+  width:100%;
+  border-bottom:solid 0.5px #E6ECF0;
+  padding: 14px 9px;
+}
+
+.left-wrapper{
+display: block;
+width: 20%;
+margin: 0 5px;
+}
+
+.profile_image_box{
+  display: block;
+  min-height: 30px;
+}
+
+.profile_image_circle{
+  border-radius: 50%;
+}
+
+.right-wrapper{
+display: block;
+width: 80%;
+margin:0 5px;
+}
+
+.tweet_user_box{
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  text-align: left;
+}
+
+.user_name_box{
+  display: inline;
+  text-align: left;
+  font-size:16px;
+  margin: 5px 0 ;
+}
+
+
+a:link{
+  text-decoration:none;
+  color:#14181A;
+}
+
+.user_screen_name_box{
+  display: inline;
+  text-align: left;
+  font-size:14px; 
+  margin: 5px 0 5px 10px;
+}
+
+.tweet_main_text{
+display: block;
+width: 100%;
+text-align: left;
+}
+
+.icon_container{
+display: flex;
+margin-top:9px;
+height: 20px;
+}
+
+.iconbox_long{
+  display: flex;
+  width: 30%;
+  height: 20px;
+}
+.icon_count{
+  display: block;
+  height: 20px;
+  margin:5px 15px 5px 0;
+  color:#8E9BA6;
+}
+.iconbox_short{
+  display: block;
+  width: 10%;
+  height: 20px;
+}
+
+.icon{
+  display: block;
+  text-align: left;
+  height:20px;
+  margin:5px ;
+  fill: #8E9BA6;
+}
